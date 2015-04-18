@@ -113,8 +113,8 @@ void zad_1(void)      // -------- prosty program na obs³ugê klawiszy i LED-ów
 		break;
 	}
 	if(tim) --tim;
-	//KL1 = aK1;
-	//KL2 = aK2;
+	KL1 = aK1;
+	KL2 = aK2;
 	L1 = LD;
 				
 }
