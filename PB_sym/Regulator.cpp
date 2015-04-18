@@ -178,7 +178,7 @@ void zad_5(void)      // --------  obs³uga obiektu (zbiornika)
 	  st1=(PS[pc]&1)?1:0;
       switch(PW[pc]){
          case 0: xw=X1; break;
-         case 1: xw=X3; break;
+         case 1: xw=X2; break;
          case 2: xw=X3; break;
          case 3: xw=1; break;
          case 4: xw=!tim||TM; break;
